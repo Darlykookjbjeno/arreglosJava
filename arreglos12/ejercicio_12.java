@@ -25,7 +25,7 @@ public class ejercicio_12 {
 
            }while(posicion<0||posicion>9);
            
-           for(int i=0;i<9;i++){
+           for(int i=posicion;i<9;i++){
             numeros[i]=numeros[i+1];
            }
            
